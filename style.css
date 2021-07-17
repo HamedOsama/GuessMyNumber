@@ -71,6 +71,19 @@ header p:nth-child(4) {
     body{
         font-family: system-ui;
     }
+    .btn{
+        padding: 2rem 2rem;
+    }
+    .number{
+        padding: 1rem 0rem;
+    }
+    .guess{
+        padding: 1.5rem;
+    }
+    h1{
+        font-size: 2rem;
+        top: 56%;
+    }
 }
 
 h1 {

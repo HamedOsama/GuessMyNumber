@@ -63,29 +63,6 @@ header p:nth-child(4) {
     right: 1rem;
 }
 
-@media (max-width: 767px) {
-    header p:nth-child(3),
-    header p:nth-child(4) {
-        display: none;
-    }
-    body{
-        font-family: system-ui;
-    }
-    .btn{
-        padding: 2rem 2rem;
-    }
-    .number{
-        padding: 1rem 0rem;
-    }
-    .guess{
-        padding: 1.5rem;
-    }
-    h1{
-        font-size: 2rem;
-        top: 56%;
-    }
-}
-
 h1 {
     font-size: 4rem;
     text-align: center;
@@ -156,4 +133,27 @@ h1 {
 
 .label-score {
     margin-bottom: 2rem;
+}
+
+@media (max-width: 767px) {
+    header p:nth-child(3),
+    header p:nth-child(4) {
+        display: none;
+    }
+    body{
+        font-family: system-ui;
+    }
+    .btn{
+        padding: 2rem 2rem;
+    }
+    .number{
+        padding: 1rem 0rem;
+    }
+    .guess{
+        padding: 1.5rem;
+    }
+    h1{
+        font-size: 2rem;
+        top: 56%;
+    }
 }

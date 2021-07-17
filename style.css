@@ -68,6 +68,9 @@ header p:nth-child(4) {
     header p:nth-child(4) {
         display: none;
     }
+    body{
+        font-family: cursive , sans-serif;
+    }
 }
 
 h1 {

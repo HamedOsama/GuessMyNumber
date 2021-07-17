@@ -140,20 +140,49 @@ h1 {
     header p:nth-child(4) {
         display: none;
     }
-    body{
-        font-family: system-ui;
+    .btn {
+        padding: 2rem 4rem;
     }
-    .btn{
-        padding: 2rem 2rem;
-    }
-    .number{
+    .number {
         padding: 1rem 0rem;
     }
-    .guess{
+    .guess {
         padding: 1.5rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 25%);
     }
-    h1{
-        font-size: 2rem;
+    .message {
+        font-size: 2.5rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-44%, -125%);
+    }
+    p.label-highscore {
+        position: absolute;
+        bottom: 40px;
+        right: 20px;
+    }
+    p.label-score {
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+    }
+    .left .btn {
+        color: red;
+        position: absolute;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 250%);
+    }
+    h1 {
+        font-size: 3rem;
         top: 56%;
+    }
+    body {
+        font-family: system-ui;
     }
 }

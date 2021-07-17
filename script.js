@@ -8,7 +8,6 @@ let tips = document.querySelectorAll('.tips');
 let randomNumber = Math.trunc(Math.random() * 50 + 1);
 //Clear the tips after 7.5 sec
 setTimeout(() => {
-    console.log('done');
     tips.forEach(tip => {
         tip.style.display = 'none'
     });

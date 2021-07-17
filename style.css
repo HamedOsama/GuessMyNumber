@@ -162,12 +162,12 @@ h1 {
     }
     p.label-highscore {
         position: absolute;
-        bottom: 40px;
+        bottom: 30px;
         right: 20px;
     }
     p.label-score {
         position: absolute;
-        bottom: 20px;
+        bottom: 10px;
         left: 20px;
     }
     .left .btn {
